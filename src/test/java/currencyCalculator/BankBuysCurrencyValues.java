@@ -61,7 +61,6 @@ public class BankBuysCurrencyValues {
         this.aud = aud;
     }
 
-
     public double getByn() {
         return byn;
     }

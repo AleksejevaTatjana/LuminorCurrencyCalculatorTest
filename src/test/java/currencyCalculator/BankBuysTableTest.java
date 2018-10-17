@@ -91,7 +91,6 @@ public class BankBuysTableTest {
 
         WebElement sgdValue = driver.findElement(SGD_BANK_BUYS);
         Assert.assertEquals(bankBuysCurrencyValues.getSgd(), Double.valueOf(sgdValue.getText()), 0.0001);
-
     }
 }
 

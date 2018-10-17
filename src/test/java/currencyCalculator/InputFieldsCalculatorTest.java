@@ -144,5 +144,6 @@ public class InputFieldsCalculatorTest {
         WebElement selectSGD = driver.findElement(BUY_SGD);
         selectSGD.click();
         Assert.assertEquals(bankBuysCurrencyValues.getSgd(), Double.valueOf(buyInputField.getAttribute("value")), 0.01);
+
     }
 }

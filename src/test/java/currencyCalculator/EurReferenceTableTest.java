@@ -91,6 +91,5 @@ public class EurReferenceTableTest {
 
         WebElement sgdValue = driver.findElement(SGD_EUR_REF_RATE);
         Assert.assertEquals(eurReferenceRateValues.getSgd(), Double.valueOf(sgdValue.getText()),0.0001);
-
       }
 }

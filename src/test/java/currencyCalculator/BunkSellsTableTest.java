@@ -91,6 +91,5 @@ public class BunkSellsTableTest {
 
         WebElement sgdValue = driver.findElement(SGD_BANK_SELLS);
         Assert.assertEquals(bankSellsCurrencyValues.getSgd(), Double.valueOf(sgdValue.getText()), 0.0001);
-
     }
 }

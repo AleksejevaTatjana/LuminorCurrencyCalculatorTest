@@ -21,7 +21,6 @@ public class BankSellsCurrencyValues {
     private double sek = 10.4736;
     private double sgd = 1.6232;
 
-
     public double getUsd() { return usd; }
 
     public void setUsd(double usd) {
