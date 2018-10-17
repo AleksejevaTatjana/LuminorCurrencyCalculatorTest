@@ -22,9 +22,7 @@ public class BankSellsCurrencyValues {
     private double sgd = 1.6232;
 
 
-    public double getUsd() {
-        return usd;
-    }
+    public double getUsd() { return usd; }
 
     public void setUsd(double usd) {
         this.usd = usd;

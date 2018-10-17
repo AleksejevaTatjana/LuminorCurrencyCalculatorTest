@@ -21,9 +21,7 @@ public class EurReferenceRateValues {
     private double sek = 10.31650;
     private double sgd = 1.59250;
 
-    public double getUsd() {
-        return usd;
-    }
+    public double getUsd() { return usd; }
 
     public void setUsd(double usd) {
         this.usd = usd;

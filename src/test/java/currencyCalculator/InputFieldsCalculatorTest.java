@@ -32,8 +32,8 @@ public class InputFieldsCalculatorTest {
     private final By BUY_SEK = By.xpath("//select[@id='currency-buy-select']/option[18]");
     private final By BUY_SGD = By.xpath("//select[@id='currency-buy-select']/option[19]");
 
-    BankBuysCurrencyValues bankBuysCurrencyValues = new BankBuysCurrencyValues();
-    WebDriver driver;
+    private BankBuysCurrencyValues bankBuysCurrencyValues = new BankBuysCurrencyValues();
+    private WebDriver driver;
 
     @Test
     public void checkIBuyInputField() {

@@ -23,9 +23,7 @@ public class BankBuysCurrencyValues {
     private double sgd = 1.5532;
 
 
-    public double getEur() {
-        return eur;
-    }
+    public double getEur() { return eur;  }
 
     public void setEur() {
         this.eur = eur;
